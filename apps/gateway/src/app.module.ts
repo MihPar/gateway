@@ -24,8 +24,8 @@ const modules = [BlogsModule, UsersModule, PostsModule, CommentsModule]
   imports: [ ConfigModule.forRoot({
 	isGlobal: true,
   }), 
-  TypeOrmModule.forFeature([UsersModule, BlogsModule, PostsModule, CommentsModule], 
-  ...modules)
+  TypeOrmModule.forFeature([UsersModule, BlogsModule, PostsModule, CommentsModule]),
+  ...modules
   ],
   controllers: [...controllers],
   providers: [...services],
