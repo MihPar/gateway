@@ -5,4 +5,7 @@ export class FileSystemService {
   getHello(): string {
     return 'Hello World!';
   }
+  createFile() {
+	return 'post was created'
+  }
 }
