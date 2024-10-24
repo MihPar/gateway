@@ -9,8 +9,8 @@ export class FileSystemController {
   getHello(): string {
     return this.fileSystemService.getHello();
   }
-  @Post()
-  async createPost() {
-	return this.fileSystemService.createFile()
-  }
+//   @Post()
+//   async createPost() {
+// 	return this.fileSystemService.createFile()
+//   }
 }
